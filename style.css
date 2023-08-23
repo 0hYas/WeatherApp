@@ -35,6 +35,7 @@ main{
     padding: 3.5rem;
 }
 
+
 .search_bar {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -84,7 +85,7 @@ h1 {
 }
 
 h2{
-    font-size: 36px;
+    font-size: 20   0%;
     margin: 20px 0;
     border-bottom: 3px solid var(--grey);
     text-transform: uppercase;
@@ -96,7 +97,7 @@ h2 img {
 }
 
 .detailed_informations {
-    border-radius: 50px;
+    border-radius: 30px;
     box-shadow: inset 20px 20px 60px #bebebe,
                 inset -20px -20px 60px #ffffff;
 
@@ -109,11 +110,15 @@ h2 img {
     padding: 20px;
     
     font-weight: 600;
-    gap: 30px;
+    gap: 15px;
 
 }
 
-.detailed_informations img {
+.description {
+    font-size: 80%;
+}
+
+.umidade_vento img {
     margin: 0 0.5rem;
 }
 
